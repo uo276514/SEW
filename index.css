@@ -1,0 +1,11 @@
+/*Especificidad: 001*/
+img {
+	padding: 0.5em;
+	border-radius: 4em;
+}
+
+/*Especificidad: 001*/
+video {
+	padding: 0.5em;
+	border-radius: 4em;
+}

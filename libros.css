@@ -1,0 +1,17 @@
+/*Especificidad: 001*/
+img {
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+/*Especificidad: 002*/
+ul li{
+	color:green; 
+	background-color: #fff;
+}
+
+/*Especificidad: 001*/
+h2 {
+	color: green;
+	background-color: #fff;
+}

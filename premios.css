@@ -1,0 +1,33 @@
+/*Especificidad: 001*/
+p {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #fff;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+/*Especificidad: 001*/
+table {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FF90FB;
+	text-align: center;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+/*Especificidad: 001*/
+caption {
+	color: #000000;
+	background-color: #fff;
+	padding: 0.5em;
+	font-size: 1.5em;
+	border-radius: 4em;
+}
+
+/*Especificidad: 001*/
+tr {
+	padding: 0.5em;
+	font-size: 1.3em;
+}
