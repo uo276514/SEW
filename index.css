@@ -29,3 +29,8 @@ section {
 footer {
 	grid-column: 1/4;
 }
+
+/*Especificidad: 001*/
+p {
+	font-size: 1.4em;;
+}

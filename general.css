@@ -41,6 +41,15 @@ section {
 }
 
 /*Especificidad: 001*/
+footer {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #fff;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+
+/*Especificidad: 001*/
 h2 {
 	color: #000000;
 	background-color: #fff;
