@@ -20,11 +20,6 @@ nav {
 }
 
 /*Especificidad: 001*/
-header {
-	grid-column: 1/4;
-}
-
-/*Especificidad: 001*/
 h1 {
 	color: #fff;
 	background-color: #4625E0;
@@ -33,6 +28,7 @@ h1 {
 	padding: 1.2em;
 	font-size: 1.8em;
 	border-radius: 1em;
+	grid-column: 1/4;
 }
 
 /*Especificidad: 001*/
