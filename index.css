@@ -5,6 +5,8 @@ img {
 	grid-column: 3/4;
 	margin-left: 4em;
 	margin-top: 4em;
+	width: 70%;
+	height: auto;
 }
 
 /*Especificidad: 001*/
