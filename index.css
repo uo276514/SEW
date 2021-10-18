@@ -3,7 +3,7 @@ img {
 	padding: 0.5em;
 	border-radius: 4em;
 	grid-column: 3/4;
-	height: 90%;
+	height: auto;
 	width: auto;
 }
 
@@ -12,7 +12,7 @@ video {
 	padding: 0.5em;
 	border-radius: 4em;
 	height: auto;
-	width: auto;
+	width: 98%;
 }
 
 /*Especificidad: 001*/
