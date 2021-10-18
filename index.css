@@ -12,7 +12,7 @@ video {
 	padding: 0.5em;
 	border-radius: 4em;
 	height: 50%;
-	width: 98%;
+	width: auto;
 }
 
 /*Especificidad: 001*/
