@@ -5,7 +5,7 @@ section {
 	background-color: #8DEB3B;
 	padding: 0.5em;
 	border-radius: 1em;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	grid-column: 1/4;
 }
 
@@ -23,7 +23,7 @@ h2 {
 input {
 	color: #000000;
 	background-color: #C8FF96;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 /*Especificidad: 001*/
