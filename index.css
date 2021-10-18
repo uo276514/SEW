@@ -3,8 +3,6 @@ img {
 	padding: 0.5em;
 	border-radius: 4em;
 	grid-column: 3/4;
-	height: auto;
-	width: auto;
 }
 
 /*Especificidad: 001*/
