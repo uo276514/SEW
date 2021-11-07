@@ -1,0 +1,54 @@
+/*Especificidad: 001*/
+body {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFDB73;
+}
+
+/*Especificidad: 001*/
+h1 {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	text-align: center;
+	border-radius: 1em;
+}
+
+/*Especificidad: 001*/
+h2 {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	text-align: center;
+}
+
+/*Especificidad: 001*/
+h3 {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	text-align: center;
+}
+
+/*Especificidad: 001*/
+td {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	text-align: center;
+}
+
+/*Especificidad: 001*/
+th {
+	font-family: Tahoma, sans-serif;
+	color: #FFF;
+	background-color: #000000;
+	text-align: center;
+}
+
+/*Especificidad: 001*/
+p {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFDB73;
+}
