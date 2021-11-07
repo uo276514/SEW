@@ -31,11 +31,21 @@ h3 {
 }
 
 /*Especificidad: 001*/
+caption {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFDB73;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+/*Especificidad: 001*/
 td {
 	font-family: Tahoma, sans-serif;
 	color: #000000;
 	background-color: #FFF;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 /*Especificidad: 001*/
@@ -44,6 +54,7 @@ th {
 	color: #FFF;
 	background-color: #000000;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 /*Especificidad: 001*/
@@ -56,4 +67,5 @@ p {
 /*Especificidad: 001*/
 button {
 	margin: 1em;
+	font-size: 1.5em;
 }
