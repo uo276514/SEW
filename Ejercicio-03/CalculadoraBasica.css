@@ -19,7 +19,7 @@ h1 {
 }
 
 /*Especificidad: 001*/
-main {
+form {
 	font-family: Tahoma, sans-serif;
 	color: #FFF;
 	background-color: #444;
