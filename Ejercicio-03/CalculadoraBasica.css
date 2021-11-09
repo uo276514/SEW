@@ -33,7 +33,7 @@ main {
 }
 
 /*Especificidad: 001*/
-input[id="p"] {
+input[id="pantalla"] {
 	color: #000000;
 	background-color: #B8E8B0;
 	text-align:center;
