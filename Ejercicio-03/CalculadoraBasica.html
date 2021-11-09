@@ -13,28 +13,29 @@
 	<h1>Calculadora básica</h1>
 	
 	<main>
-		<input type="text" id="pantalla" disabled />
+		<label for="p"><input id="p" type="text" disabled /></label>
 		
-		<input type="button" value="mrc" onClick = "mostrarMemoria()">
-		<input type="button" value="m+" onClick = "sumarMemoria()">
-		<input type="button" value="m-" onClick = "restarMemoria()">
-		<input type="button" value="/" onClick = "division()">
-		<input type="button" value="7" onClick = "num(7)">
-		<input type="button" value="8" onClick = "num(8)">
-		<input type="button" value="9" onClick = "num(9)">
-		<input type="button" value="*" onClick = "multiplicacion()">
-		<input type="button" value="4" onClick = "num(4)">
-		<input type="button" value="5" onClick = "num(5)">
-		<input type="button" value="6" onClick = "num(6)">
-		<input type="button" value="-" onClick = "resta()">
-		<input type="button" value="1" onClick = "num(1)">
-		<input type="button" value="2" onClick = "num(2)">
-		<input type="button" value="3" onClick = "num(3)">
-		<input type="button" value="+" onClick = "suma()">
-		<input type="button" value="0" onClick = "num(0)">
-		<input type="button" value="." onClick = "coma()">
-		<input type="button" value="C" onClick = "vaciar()">
-		<input type="button" value="=" onClick = "resolver()">
+		<label for="mrc"><input id="mrc" type="button" value="mrc" onClick = "mostrarMemoria()"></label> 
+		
+		<label for="m+"><input id="m+" type="button" value="m+" onClick = "sumarMemoria()"></label>
+		<label for="m-"><input id="m-" type="button" value="m-" onClick = "restarMemoria()"></label>
+		<label for="/"><input id="/" type="button" value="/" onClick = "division()"></label>
+		<label for="7"><input id="7" type="button" value="7" onClick = "num(7)"></label>
+		<label for="8"><input id="8" type="button" value="8" onClick = "num(8)"></label>
+		<label for="9"><input id="9" type="button" value="9" onClick = "num(9)"></label>
+		<label for="*"><input id="*" type="button" value="*" onClick = "multiplicacion()"></label>
+		<label for="4"><input id="4" type="button" value="4" onClick = "num(4)"></label>
+		<label for="5"><input id="5" type="button" value="5" onClick = "num(5)"></label>
+		<label for="6"><input id="6" type="button" value="6" onClick = "num(6)"></label>
+		<label for="-"><input id="-" type="button" value="-" onClick = "resta()"></label>
+		<label for="1"><input id="1" type="button" value="1" onClick = "num(1)"></label>
+		<label for="2"><input id="2" type="button" value="2" onClick = "num(2)"></label>
+		<label for="3"><input id="3" type="button" value="3" onClick = "num(3)"></label>
+		<label for="+"><input id="+" type="button" value="+" onClick = "suma()"></label>
+		<label for="0"><input id="0" type="button" value="0" onClick = "num(0)"></label>
+		<label for="."><input id="." type="button" value="." onClick = "coma()"></label>
+		<label for="C"><input id="C" type="button" value="C" onClick = "vaciar()"></label>
+		<label for="="><input id="=" type="button" value="=" onClick = "resolver()"></label>
 	</main>
 
 </body></html>
