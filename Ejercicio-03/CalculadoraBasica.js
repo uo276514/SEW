@@ -16,8 +16,8 @@ class Calculadora {
 	}
 	
 	mostrarMemoria() {
-		this.operacion = this.memoria;
-		document.getElementById('pantalla').value = this.memoria;
+		this.operacion = Number(this.memoria);
+		document.getElementById('pantalla').value = Number(this.memoria);
 		this.resuelto = true;
 	}
 	
@@ -33,7 +33,7 @@ class Calculadora {
 			this.resuelto = false;
 		}
 		this.operacion += n;
-		document.getElementById('pantalla').value += n;
+		document.getElementById('pantalla').value += Number(n);
 	}
 	
 	coma() {

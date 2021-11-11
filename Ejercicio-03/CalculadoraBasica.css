@@ -3,10 +3,6 @@ body {
 	font-family: Tahoma, sans-serif;
 	color: #000000;
 	background-color: #DC8F54;
-	display: grid;
-	gap: 1em;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(5, 1fr);
 }
 
 /*Especificidad: 001*/
@@ -16,8 +12,6 @@ h1 {
 	background-color: #DC8F54;
 	text-align: center;
 	border-radius: 1em;
-	grid-column: 1 / 6;
-	grid-row: 1 / 2;
 }
 
 /*Especificidad: 001*/
@@ -25,10 +19,11 @@ main {
 	font-family: Tahoma, sans-serif;
 	color: #FFF;
 	background-color: #444;
+	margin-left: 47em;
+	margin-right: 47em;
+	margin-top: 2em;
 	padding: 1em;
 	border-radius: 1.1em;
-	grid-column: 3 / 4;
-	grid-row: 2 / 6;
 	display: grid;
 	gap: 0.5em;
 	grid-template-columns: repeat(4, 1fr);
