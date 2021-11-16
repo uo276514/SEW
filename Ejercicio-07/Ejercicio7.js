@@ -13,6 +13,7 @@ $(document).ready(function(){
 	});
 	$("#addList").click(function(){
 		$("#add").before("<ul><li>Mi padre Luis Alvarez</li><ul><li>Mi abuelo Jose Antonio</li><li>Mi abuela Reme</li></ul><li>Mi madre Carmen</li><ul><li>Mi abuelo Pepe</li><li>Mi abuela Carmen</li></ul></ul>");
+		$("#addList").hide();
 	});
 	$("#removeList").click(function(){
 		$("ul").remove();
