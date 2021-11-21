@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Ejercicio11_Tarea4</title>
+	<title>Ejercicio12</title>
 	
 	<link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
 	
@@ -11,13 +11,15 @@
 
 <body>
 
-	<h1>Mapa dinámico con centro en la ubicación del usuario</h1>
+	<h1>EXAMINAR ARCHIVOS Y MOSTRAR INFORMACIÓN SOBRE ELLOS</h1>
 	
-	<p><input id="examinarArchivos" type="file" onchange="lector.calcularTamañoArchivos();" multiple=""></p>
+	<label for="examinarArchivos">Examinador de archivos</label>
+	<input id="examinarArchivos" type="file" onchange="lector.calcularTamañoArchivos();" multiple="">
+	
 	
 	<p id="nArchivos">Archivos seleccionados: 0</p>
 	<p id="tTotal">Tamaño total de los archivos: 0 bytes</p>
-	<p id="nombres"></p>
+	<p id="nombres">Archivos: </p>
 	
 </body>
 </html>
