@@ -9,6 +9,71 @@ class Calculadora {
 		this.n1 = "";
 		this.n2 = "";
 		this.opLeido = false;
+		document.addEventListener('keydown', (event) => {
+			const k = event.key;
+			switch (k) {
+				case '1':
+					this.leerNumero(Number(1));
+					break;
+				case '2':
+					this.leerNumero(Number(2));
+					break;
+				case '3':
+					this.leerNumero(Number(3));
+					break;
+				case '4':
+					this.leerNumero(Number(4));
+					break;
+				case '5':
+					this.leerNumero(Number(5));
+					break;
+				case '6':
+					this.leerNumero(Number(6));
+					break;
+				case '7':
+					this.leerNumero(Number(7));
+					break;
+				case '8':
+					this.leerNumero(Number(8));
+					break;
+				case '9':
+					this.leerNumero(Number(9));
+					break;
+				case '0':
+					this.leerNumero(Number(0));
+					break;
+				case '.':
+					this.coma();
+					break;
+				case 'C':
+					this.vaciar();
+					break;
+				case 'Enter':
+					this.resolver();
+					break;
+				case '+':
+					this.pulsarSuma();
+					break;
+				case '-':
+					this.pulsarResta();
+					break;
+				case '*':
+					this.pulsarMult();
+					break;
+				case '/':
+					this.pulsarDiv();
+					break;
+				case 'm':
+					this.mostrarMemoria();
+					break;
+				case 'k':
+					this.sumarMemoria();
+					break;
+				case 'k':
+					this.restarMemoria();
+					break;
+			}
+		});
 	}
 	
 	restarMemoria() {
@@ -140,8 +205,81 @@ class CalculadoraCientifica extends Calculadora {
 		super();
 		this.uAng = "DEG";
 		document.addEventListener('keydown', (event) => {
-			const keyName = event.key;
-			alert('keydown event\n\n' + 'key: ' + keyName);
+			const k = event.key;
+			switch (k) {
+				case '(':
+					this.parentesisInicio();
+					break;
+				case ')':
+					this.parentesisFin();
+					break;
+				case 'Backspace':
+					this.eliminarUltimo();
+					break;
+				case 'E':
+					this.vaciarError();
+					break;
+				case 'l':
+					this.log();
+					break;
+				case '!':
+					this.factorial();
+					break;
+				case 'p':
+					this.pi();
+					break;
+				case 's':
+					this.cambiarSigno();
+					break;
+				case 'x':
+					this.exp();
+					break;
+				case 'r':
+					this.modulo();
+					break;
+				case 'd':
+					this.potencia10();
+					break;
+				case 'R':
+					this.raizCuadrada();
+					break;
+				case 'c':
+					this.alCuadrado();
+					break;
+				case 'L':
+					this.elevar();
+					break;
+				case 'i':
+					this.seno();
+					break;
+				case 'I':
+					this.sinh();
+					break;
+				case 'o':
+					this.coseno();
+					break;
+				case 'O':
+					this.cosh();
+					break;
+				case 'a':
+					this.tangente();
+					break;
+				case 'A':
+					this.tanh();
+					break;
+				case 'g':
+					this.cambiarUnidadAngular();
+					break;
+				case 'F':
+					this.notacionCientifica();
+					break;
+				case 'M':
+					this.vaciarMemoria();
+					break;
+				case 'S':
+					this.almacenarMemoria();
+					break;
+			}
 		});
 	}
 
@@ -471,7 +609,7 @@ class CalculadoraCientifica extends Calculadora {
 						this.opLeido = true;
 					}
 				} else if (this.operacion[i] == '(') {
-					
+
 				} else if (this.operacion[i] == ')') {
 
 				} else if (this.operacion[i] == 'x') {
