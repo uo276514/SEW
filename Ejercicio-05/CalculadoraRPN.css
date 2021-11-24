@@ -45,8 +45,8 @@ label {
 input[type="text"] {
 	color: #000000;
 	background-color: #FFF;
-	text-align: right;
-	font-size: 3em;
+	text-align: left;
+	font-size: 2em;
 	grid-column: 1/5;
 	margin-bottom: 0.8em;
 	height: 1em;
@@ -54,10 +54,10 @@ input[type="text"] {
 }
 
 /*Especificidad: 011*/
-input[type="textarea"] {
+textarea {
 	color: #000000;
 	background-color: #FFF;
-	text-align: right;
+	text-align: left;
 	font-size: 1.5em;
 	grid-column: 1/5;
 	margin-top: 0.2em;
