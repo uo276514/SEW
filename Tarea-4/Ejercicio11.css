@@ -20,3 +20,7 @@ h1 {
 	border-radius: 1em;
 }
 
+/*Especificidad: 001*/
+p {
+	opacity: 0;
+}
