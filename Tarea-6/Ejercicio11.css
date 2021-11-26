@@ -16,6 +16,7 @@ section {
 	color: #000000;
 	background-color: #FFF;
 	border-radius: 0.8em;
+	min-width: 90em;
 	display: grid;
 	gap: 0.5em;
 	grid-template-columns: repeat(5, 1fr);
