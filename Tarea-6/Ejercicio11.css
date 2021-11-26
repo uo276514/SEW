@@ -46,6 +46,7 @@ p {
 /*Especificidad: 001*/
 label {
 	margin-left: 0.7em;
+	font-size: 1.1em;
 }
 
 /*Especificidad: 011*/
@@ -55,5 +56,6 @@ label[for="b"] {
 
 /*Especificidad: 011*/
 input[type="button"] {
-	margin: 1em;;
+	font-size: 1.1em;
+	margin: 1.5em;
 }
