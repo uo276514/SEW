@@ -1,0 +1,57 @@
+/*Especificidad: 001*/
+body {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFDB73;
+}
+
+/*Especificidad: 001*/
+main {
+	height: 50em;
+	width: auto;
+}
+
+/*Especificidad: 001*/
+section {
+	color: #000000;
+	background-color: #FFF;
+	border-radius: 0.8em;
+	display: grid;
+	gap: 0.5em;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+/*Especificidad: 001*/
+h2 {
+	margin-left: 0.5em;
+	grid-column: 1/6;
+}
+
+/*Especificidad: 001*/
+h1 {
+	font-family: Tahoma, sans-serif;
+	color: #000000;
+	background-color: #FFF;
+	text-align: center;
+	border-radius: 1em;
+}
+
+/*Especificidad: 001*/
+p {
+	opacity: 0;
+}
+
+/*Especificidad: 001*/
+label {
+	margin-left: 0.7em;
+}
+
+/*Especificidad: 011*/
+label[for="b"] {
+	opacity: 0;
+}
+
+/*Especificidad: 011*/
+input[type="button"] {
+	margin: 1em;;
+}
