@@ -1,0 +1,7 @@
+PSG - Atlético de Madrid,Parque de los Príncipes,lat:48.841453552246,long:2.2530980110168;
+Real Madrid - Juventus,Santiago Bernabeu,lat:40.453053,long:-3.688344;
+FC Barcelona - AC Milan,Camp Nou,lat:41.380898,long:2.122820;
+Manchester United - Sevilla,Old Trafford,lat:53.463493,long:-2.292279;
+Bayern Munich - Manchester City,Allianz Arena,lat:48.218967,long:11.623746;
+Inter Milan - Chelsea,San Siro,lat:45.478489,long:9.122150;
+Roma - Liverpool,Olímpico de Roma,lat:41.933964,long:12.454297;
