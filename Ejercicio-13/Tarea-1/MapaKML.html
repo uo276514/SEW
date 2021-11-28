@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio13_Tarea1</title>
+	
+	<link rel="stylesheet" type="text/css" href="MapaKML.css" />
+	
+	<script src="MapaKML.js"></script>
+</head>
+
+<body>
+
+	<h1>MOSTRAR COORDENADAS DE KML EN MAPA DINÁMICO</h1>
+	
+	<label for="archivo">Introduce archivo KML: </label>	    
+	<input type="file" id="archivo" onchange="lector.leerArchivo(this.files);"/>
+	
+	<input type="button" onclick = "lector.cogerInfoKML()" value="Mostrar información del KML" />
+
+	<main id="mapa">
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&amp;callback=mapa.init"></script>
+	</main>
+
+	<p id="areaVisualizacion"></p>
+	
+</body>
+</html>

@@ -1,0 +1,195 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.11839,40.94808 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Jorge López Peláez"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.1177,40.948 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Luis López Alvarez"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.72839,41.6529 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Jose Antonio López Arranz"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.57032,42.60003 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Antonio López Gómez"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.56121,42.63000 ]
+			},
+			"properties": {
+				"name": "Fallecimiento de Antonio López Gómez"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -3.70184,42.34106 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Isabel Arranz Mayo"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -3.73121,42.32000 ]
+			},
+			"properties": {
+				"name": "Fallecimiento de Isabel Arranz Mayo"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.70032,40.6564 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Maria Remedios Alvarez González"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -3.70325,40.4167 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Luis Alvarez Benito"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -3.70275,40.41831 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Pura González Pérez"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.84476,43.3603 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Carmen Peláez Martos"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.81215,43.40272 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Pepe Peláez García"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.66193,43.5453 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Jose Peláez Gash"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.64121,43.42020 ]
+			},
+			"properties": {
+				"name": "Fallecimiento de Jose Peláez Gash"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.75091,43.4195 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Maria Gash Torres"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -2.93848,35.2919 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Carmen Martos Moreno"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -5.3162,35.8883 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Carlos Martos Benito"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.42002,36.7196 ]
+			},
+			"properties": {
+				"name": "Nacimiento de Carmen Moreno Torre"
+			}
+		},
+		{
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [ -4.45121,36.73020 ]
+			},
+			"properties": {
+				"name": "Fallecimiento de Carmen Moreno Torre"
+			}
+		}
+	]
+}
