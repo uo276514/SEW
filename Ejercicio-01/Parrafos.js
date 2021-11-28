@@ -1,1 +1,0 @@
-asig.writeParrafos();
