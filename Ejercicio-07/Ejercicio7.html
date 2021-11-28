@@ -15,20 +15,20 @@
 
 	<h1>Información del árbol genealógico</h1>
 	
-	<button id="ocultar">Ocultar título</button>
-	<button id="mostrar">Mostrar título</button>
+	<button id="ocultar" onclick="b.ocultarH1()">Ocultar título</button>
+	<button id="mostrar" onclick="b.mostrarH1()">Mostrar título</button>
 	
 	<h2>Estos son algunos miembros del árbol</h2>
 	
 	<p id="presList">Lista con algunos miembros:</p>
 	
-	<button id="btn1">Cambiar a párrafo 2</button>
-	<button id="btn2">Cambiar a párrafo 1</button>
+	<button id="btn1" onclick="b.cambiarAp2()">Cambiar a párrafo 2</button>
+	<button id="btn2" onclick="b.cambiarAp1()">Cambiar a párrafo 1</button>
 	
-	<p id="add"><button id="addList">Añadir lista</button></p>
-	<p id="remove"><button id="removeList">Eliminar lista</button></p>
+	<p id="add"><button id="addList" onclick="b.addLista()">Añadir lista</button></p>
+	<p id="remove"><button id="removeList" onclick="b.removeLista()">Eliminar lista</button></p>
 	
-	<button id="showInfo">Mostrar elemento padre de cada elemento y su tipo</button>
+	<button id="showInfo" onclick="b.mostrarInfo()">Mostrar elemento padre de cada elemento y su tipo</button>
 	
 	<h3>Más miembros de la familia:</h3>
 	<table>
@@ -56,7 +56,7 @@
 		</tr>
 	</table>
 	
-	<button id="sumarEdades">Sumar edades</button>
+	<button id="sumarEdades" onclick="b.sumarEdades()">Sumar edades</button>
 	
 </body>
 </html>
