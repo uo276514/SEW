@@ -1,1 +1,0 @@
-infoNavegador.writeIdioma();
