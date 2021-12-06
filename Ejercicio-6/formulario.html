@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>JAMES GOSLING - formulario</title>
+	
+	<link rel="stylesheet" type="text/css" href="general.css" />
+	<link rel="stylesheet" type="text/css" href="formulario.css" />
+	
+	<!--base href="file:///C:/Users/uo276514/Documents/SEW/P1_V2/"/-->
+	<!--base href="file:///C:/Users/Jorge/Documents/Uni_Clases/Uni_3er_Curso/1er_Cuatri/SEW/Prácticas/P1_V2/"/-->
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" accesskey="I" tabindex="1">Índice</a>
+		<a href="libros.html" accesskey="L" tabindex="2">Libros</a>
+		<a href="premios.html" accesskey="P" tabindex="3">Premios</a>
+		<a href="formulario.html" accesskey="F" tabindex="4">Formulario</a>
+	</nav>
+	
+	<h1>¿Cuánto sabes sobre James Gosling?</h1>
+
+	<section>
+		<h2>¿Crees que sabes mucho sobre James? Intenta contestar correctamente a las siguientes preguntas:</h2>
+		
+		<form name="preguntas">
+			<label for="fecha">¿Cuándo nació James? <input id="fecha" type="date" ></label><br>
+			<label for="num">Por tanto, ¿qué edad tiene actualmente? <input id="num" type="number" ></label><br>
+			<label for="tnom">¿Cual es su segundo nombre? <input id="tnom" type="text" ></label><br>
+			<label for="tjava">¿Cual es el lenguaje de programación del que es fundador y diseñador principal? <input id="tjava" type="text" ></label><br>
+			<label for="tmus">¿De qué museo fue nombreado miembro en 2019? <input id="tmus" type="text" ></label><br>
+			
+			<fieldset>
+				<legend>¿Cuáles de los siguientes libros son de James?</legend>
+
+				<label for="lib1"><input id="lib1" type="checkbox" value="La especificación del lenguaje Java" > La especificación del lenguaje Java</label><br>
+				<label for="lib2"><input id="lib2" type="checkbox" value="El lenguaje de programación Java" > El lenguaje de programación Java</label><br>
+				<label for="lib3"><input id="lib3" type="checkbox" value="Java desde cero" > Java desde cero</label><br>
+			</fieldset>
+
+			<label for="ta">¿Qué más sabes sobre James Gosling?<br>
+			<textarea id="ta" cols="30" rows="5" ></textarea></label><br>
+			<input id="bot" type="submit" value="Enviar respuestas">
+		</form>
+	</section>
+
+	<footer>
+		<h2>Audio relajante</h2>
+		<p>Un breve audio relajante para realizar el formulario:</p>
+		<audio src="multimedia/audio_relax.mp3" controls>
+		</audio>
+	</footer>
+</body>
+
+
+</html>
