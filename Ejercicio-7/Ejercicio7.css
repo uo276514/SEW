@@ -4,7 +4,7 @@ body {
 	color: #000000;
 	background-color: #FFDB73;
 	font-size: 1.1em;
-	min-width: 20em;
+	max-width: 90em;
 }
 
 /*Especificidad: 011*/
@@ -12,7 +12,7 @@ form[name="creacion"] {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	gap: 0.5em;
-	min-width: 20em;
+	max-width: 90em;
 }
 
 /*Especificidad: 011*/
@@ -20,7 +20,7 @@ form[name="busqueda"] {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0.5em;
-	min-width: 20em;
+	max-width: 90em;
 }
 
 /*Especificidad: 011*/
@@ -28,7 +28,7 @@ form[name="insercion"], form[name="modificacion"] {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	gap: 0.5em;
-	min-width: 20em;
+	max-width: 90em;
 }
 
 /*Especificidad: 011*/
@@ -36,7 +36,7 @@ form[name="borrado"], form[name="importar"] {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 0.5em;
-	min-width: 20em;
+	max-width: 90em;
 }
 
 /*Especificidad: 001*/
