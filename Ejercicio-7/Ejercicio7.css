@@ -9,28 +9,24 @@ body {
 form[name="creacion"] {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	gap: 0.5em;
 }
 
 /*Especificidad: 011*/
 form[name="busqueda"] {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 0.5em;
 }
 
 /*Especificidad: 011*/
 form[name="insercion"], form[name="modificacion"] {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
-	gap: 0.5em;
 }
 
 /*Especificidad: 011*/
 form[name="borrado"], form[name="importar"] {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 0.5em;
 }
 
 /*Especificidad: 001*/
