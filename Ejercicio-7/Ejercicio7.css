@@ -3,7 +3,7 @@ body {
 	font-family: Tahoma, sans-serif;
 	color: #000000;
 	background-color: #FFDB73;
-	font-size: 1.2em;
+	font-size: auto;
 }
 
 /*Especificidad: 011*/
