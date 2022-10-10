@@ -1,0 +1,12 @@
+/************************************** 
+*	Jorge López Peláez - uo276514 
+*	
+*	LAYOUT DEL SITIO WEB
+*	BODY: flex layout con disposición en 1 única columna
+****************************************/
+
+/*Especificidad: 001*/
+body {
+	display: flex;
+	flex-direction: column;
+}
