@@ -1,0 +1,13 @@
+/************************************** 
+*	Jorge López Peláez - uo276514 
+*	
+*	LAYOUT DEL SITIO WEB
+*	BODY: grid layout con disposición en 4 filas y 1 columna
+****************************************/
+
+/*Especificidad: 001*/
+body {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto auto;
+}
