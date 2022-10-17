@@ -1,0 +1,112 @@
+/************************************** 
+*	Jorge López Peláez - uo276514 
+*	
+*	ESTILO DE COLORES
+*	BODY: fondo de la página en azul claro y texto por defecto en negro
+*
+*	NAV: elementos de navegación en azul con fondo gris
+*	HEADER: títulos principales con fondo verde oscuro y letra blanca
+*	SECTION: secciones con fondo verde claro y letra negra
+*	FOOTER: pie de página con fondo amarillo claro y letra negra
+*
+*	H2: títulos secundarios con fondo verde menos oscuro y letra blanca
+*
+*	RESTO DE ESTILO (características principales)
+*	BODY: fuente de letra general: Tahoma
+*
+*	NAV: alineado al centro
+*	HEADER: alineado al centro y convertido a mayúsculas
+*	SECTION: bordes redondeados
+*	FOOTER: pequeño margen por arriba y bordes redondeados
+*
+*	H2: alineado al centro
+****************************************/
+
+/*Especificidad: 001*/
+body {
+	color: #000000;
+	background-color: rgb(140, 228, 255);
+
+	font-family: Tahoma, sans-serif;
+}
+
+/*Especificidad: 001*/
+nav {
+	color: #000EE0;
+	background-color: #E6EAFD;
+
+	text-align: center;
+	padding: 0.5em;
+	font-size: 1.2em;
+	border-radius: 2em;
+}
+
+/*Especificidad: 001*/
+header {
+	color: #fff;
+	background-color: rgb(0, 75, 4);
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
+/*Especificidad: 001*/
+main {
+	color: #000000;
+	background-color: #fff;
+
+	padding: 1.2em;
+	border-radius: 1em;
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+/*Especificidad: 001*/
+section {
+	color: #000000;
+	background-color: #fff;
+
+	padding: 1.2em;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
+/*Especificidad: 001*/
+footer {
+	color: #000000;
+	background-color: #fff;
+	/* background-color: #fffdda; */
+
+	padding: 0.5em;
+	border-radius: 1em;
+	margin-top: 1em;
+}
+
+/*Especificidad: 001*/
+h2 {
+	color: #fff;
+	background-color: rgb(1, 138, 1);
+	
+	padding: 0.1em;
+	text-align: center;
+	border-radius: 1.5em;
+	font-size: 1.4em;
+}
+
+/*Especificidad: 001*/
+img {
+	padding: 0.5em;
+	border-radius: 4em;
+	/* width: 20%; */
+}
+
+
+/*Especificidad: 001*/
+video {
+	padding: 0.5em;
+	border-radius: 4em;
+	/* width: 99%; */
+}
