@@ -1,0 +1,44 @@
+/************************************** 
+*	Jorge López Peláez - uo276514 
+*	
+*	LAYOUT GENERAL DEL SITIO WEB
+*	BODY: grid layout con dos columnas y 5 filas
+*	
+*	NAV: justificado al centro de la página
+****************************************/
+
+/*Especificidad: 001*/
+body {
+	display: grid;
+	grid-template-areas: 	'nav 	nav'
+							'head	head'
+							'main	section'
+							'main	section'
+							'footer	footer';	
+}
+
+/*Especificidad: 001*/
+nav {
+	grid-area: nav;
+	justify-self: center;
+}
+
+/*Especificidad: 001*/
+header {
+	grid-area: head;
+}
+
+/*Especificidad: 001*/
+main {
+	grid-area: main;
+}
+
+/*Especificidad: 001*/
+section {
+	grid-area: section;
+}
+
+/*Especificidad: 001*/
+footer {
+	grid-area: footer;
+}
