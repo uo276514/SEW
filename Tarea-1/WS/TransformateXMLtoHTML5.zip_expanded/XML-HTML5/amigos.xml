@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "amigos.dtd">
+<persona nombre="Jorge" apellidos="López Peláez" comentarios="Estudiante de ingeniería informática">	<fotos enlaceFoto="multimedia/Jorge.PNG"/>	<fechaNac fecha="16/08/2001"/>	<lugarNac lugar="Segovia"/>	<coordNac coord="40.94808, -4.11839"/>	<lugarResi lugar="Oviedo"/>	<coordResi coord="43.3603, -5.84476"/>
+		<persona nombre="Martín" apellidos="Fernández González" comentarios="Se parece a Ferrán Torres">	<fotos enlaceFoto="multimedia/Martin.PNG"/>	<fechaNac fecha="08/06/2001"/>	<lugarNac lugar="León"/>	<coordNac coord="42.6000, -5.5703"/>	<lugarResi lugar="Oviedo La Florida"/>	<coordResi coord="43.3680, -5.8730"/>
+				<persona nombre="José" apellidos="Rodríguez Rico" comentarios="Habla gallego">	<fotos enlaceFoto="multimedia/Jose.PNG"/>	<fechaNac fecha="17/03/2001"/>	<lugarNac lugar="Valladolid"/>	<coordNac coord="41.6529, -4.72839"/>	<lugarResi lugar="Tineo"/>	<coordResi coord="43.3376, -6.4145"/>
+				</persona>
+				<persona nombre="Chen Xin" apellidos="Pang Wang" comentarios="Siempre va al gimnasio">	<fotos enlaceFoto="multimedia/Xin.PNG"/>	<fechaNac fecha="23/12/2001"/>	<lugarNac lugar="Pekín"/>	<coordNac coord="39.9075, 116.3972"/>	<lugarResi lugar="Meres"/>	<coordResi coord="43.3830, -5.7330"/>
+				</persona>
+				<persona nombre="Tania" apellidos="Bajo García" comentarios="Le gusta hacer presentaciones">	<fotos enlaceFoto="multimedia/Tania.PNG"/>	<fechaNac fecha="23/06/2001"/>	<lugarNac lugar="Avila"/>	<coordNac coord="40.6564, -4.70032"/>	<lugarResi lugar="Gijón"/>	<coordResi coord="43.5453, -5.66193"/>
+				</persona>
+		</persona>
+		<persona nombre="Laura" apellidos="Ramírez Moraleda" comentarios="Da muy buenos consejos">	<fotos enlaceFoto="multimedia/Laura.PNG"/>	<fechaNac fecha="28/08/2000"/>	<lugarNac lugar="Madrid Oeste"/>	<coordNac coord="40.4167, -3.70325"/>	<lugarResi lugar="Madrid Centro"/>	<coordResi coord="40.41831, -3.70275"/>
+				<persona nombre="Vicky" apellidos="Escrivá de Balaguer" comentarios="Fuma mucho">	<fotos enlaceFoto="multimedia/Vicky.PNG"/>	<fechaNac fecha="15/04/2002"/>	<lugarNac lugar="Madrid Centro"/>	<coordNac coord="40.4088, -3.6769"/>	<lugarResi lugar="Torre del Mar"/>	<coordResi coord="36.7500, -4.0830"/>
+				</persona>
+				<persona nombre="Ignacio" apellidos="Fuentes de la Fuente" comentarios="Juega al fútbol">	<fotos enlaceFoto="multimedia/Ignacio.PNG"/>	<fechaNac fecha="08/11/2003"/>	<lugarNac lugar="Córdoba"/>	<coordNac coord="37.89155, -4.77275"/>	<lugarResi lugar="Valencia"/>	<coordResi coord="39.46975, -0.37739"/>
+				</persona>
+				<persona nombre="Francisco Javier Fernando III" apellidos="Sánchez Gallo" comentarios="Su apodo es cucu y tiene barco">	<fotos enlaceFoto="multimedia/Cucu.PNG"/>	<fechaNac fecha="09/05/2000"/>	<lugarNac lugar="Madrid Este"/>	<coordNac coord="40.39064, -3.31685"/>	<lugarResi lugar="Manchester"/>	<coordResi coord="53.48095, -2.23743"/>
+				</persona>
+		</persona>
+		<persona nombre="David" apellidos="González Fernández" comentarios="Jugaba al balonmano">	<fotos enlaceFoto="multimedia/David.PNG"/>	<fechaNac fecha="06/02/2001"/>	<lugarNac lugar="Melilla"/>	<coordNac coord="35.2919, -2.93848"/>	<lugarResi lugar="Avilés"/>	<coordResi coord="43.55473, -5.92483"/>
+				<persona nombre="Juan" apellidos="Puig Pérez" comentarios="Jugaba conmigo en la selección">	<fotos enlaceFoto="multimedia/Puig.PNG"/>	<fechaNac fecha="22/07/2000"/>	<lugarNac lugar="Lugones"/>	<coordNac coord="43.40272, -5.81215"/>	<lugarResi lugar="Avilés"/>	<coordResi coord="43.57132, -5.96221"/>
+				</persona>
+				<persona nombre="Natalia" apellidos="Fernández Riego" comentarios="Tiene un perro">	<fotos enlaceFoto="multimedia/Natalia.PNG"/>	<fechaNac fecha="29/10/2001"/>	<lugarNac lugar="Tineo"/>	<coordNac coord="43.33104, -6.40676"/>	<lugarResi lugar="Oviedo Naranco"/>	<coordResi coord="43.38289, -5.86813"/>
+				</persona>
+				<persona nombre="Silvino" apellidos="Suárez García" comentarios="Le gusta la fórmula 1">	<fotos enlaceFoto="multimedia/Silvino.PNG"/>	<fechaNac fecha="10/01/2001"/>	<lugarNac lugar="Avila"/>	<coordNac coord="40.6564, -4.70032"/>	<lugarResi lugar="Avilés"/>	<coordResi coord="43.53962, -5.86048"/>
+				</persona>
+		</persona>
+</persona>
