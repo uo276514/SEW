@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jorge López Peláez">
+	<meta name="description" content="Practica-3_Ejercicio-4_CalculadoraCientífica">
+	<meta name="keywords" content="JavaScript, Calculadora, Científica">
+
+	<title>CalculadoraCientifica</title>
+	
+	<link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" >
+	
+	<script src="CalculadoraCientifica.js"></script>
+</head>
+<body>
+
+	<h1>Calculadora científica</h1>
+	
+	<main>
+		<label for="pantalla">NADA</label>
+		<input type="text" id="pantalla" disabled >
+
+		<p>
+			<input type="button" id="g" value="DEG" onClick = "c.cambiarUnidadAngular()">					
+			<input type="button" value="sinh" onClick = "c.sinh()">						
+			<input type="button" value="cosh" onClick = "c.cosh()">						
+			<input type="button" value="tanh" onClick = "c.tanh()">						
+			<input type="button" value="F-E" onClick = "c.notacionCientifica()">		
+		</p>
+		
+		<p>
+			<input type="button" value="MC" onClick = "c.vaciarMemoria()">
+			<input type="button" value="MR" onClick = "c.mostrarMemoria()">
+			<input type="button" value="M+" onClick = "c.sumarMemoria()">
+			<input type="button" value="M-" onClick = "c.restarMemoria()">
+			<input type="button" value="MS" onClick = "c.almacenarMemoria()">
+		</p>
+
+		<input type="button" value="x^2" onClick = "c.alCuadrado()">
+		<input type="button" value="x^y" onClick = "c.elevar()">
+		<input type="button" value="sin" onClick = "c.seno()">							
+		<input type="button" value="cos" onClick = "c.coseno()">						
+		<input type="button" value="tan" onClick = "c.tangente()">					
+
+		<input type="button" value="√" onClick = "c.raizCuadrada()">			
+		<input type="button" value="10^x" onClick = "c.potencia10()">
+		<input type="button" value="log" onClick = "c.log()"> 							
+		<input type="button" value="Exp" onClick = "c.exp()">
+		<input type="button" value="Mod" onClick = "c.modulo()">
+
+		<input type="button" value="↑">
+		<input type="button" value="CE" onClick = "c.vaciarError()">				
+		<input type="button" value="C" onClick = "c.vaciar()">
+		<input type="button" value="←" onClick = "c.eliminarUltimo()">
+		<input type="button" value="/" onClick = "c.pulsarDiv()">
+
+		<input type="button" value="π" onClick = "c.pi()">						
+		<input type="button" value="7" onClick = "c.leerNumero(Number('7'))">
+		<input type="button" value="8" onClick = "c.leerNumero(Number('8'))">
+		<input type="button" value="9" onClick = "c.leerNumero(Number('9'))">
+		<input type="button" value="*" onClick = "c.pulsarMult()">
+
+		<input type="button" value="n!" onClick = "c.factorial()">
+		<input type="button" value="4" onClick = "c.leerNumero(Number('4'))">
+		<input type="button" value="5" onClick = "c.leerNumero(Number('5'))">
+		<input type="button" value="6" onClick = "c.leerNumero(Number('6'))">
+		<input type="button" value="-" onClick = "c.pulsarResta()">
+
+		<input type="button" value="+/-" onClick = "c.cambiarSigno()">
+		<input type="button" value="1" onClick = "c.leerNumero(Number('1'))">
+		<input type="button" value="2" onClick = "c.leerNumero(Number('2'))">
+		<input type="button" value="3" onClick = "c.leerNumero(Number('3'))">
+		<input type="button" value="+" onClick = "c.pulsarSuma()">
+
+		<input type="button" value="(" onClick = "c.parentesisInicio()">		
+		<input type="button" value=")" onClick = "c.parentesisFin()">			
+		<input type="button" value="0" onClick = "c.leerNumero(Number('0'))">
+		<input type="button" value="." onClick = "c.coma()">
+		<input type="button" value="=" onClick = "c.resolver()">
+	</main>
+
+</body></html>
