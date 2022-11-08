@@ -1,0 +1,19 @@
+<!ELEMENT persona (fotos+, videos*, fechaNac, lugarNac, coordNac, lugarResi, coordResi, (persona, persona, persona)?)>
+<!ELEMENT fotos (#PCDATA)>
+<!ELEMENT videos (#PCDATA)>
+<!ELEMENT fechaNac (#PCDATA)>
+<!ELEMENT lugarNac (#PCDATA)>
+<!ELEMENT coordNac (#PCDATA)>
+<!ELEMENT lugarResi (#PCDATA)>
+<!ELEMENT coordResi (#PCDATA)>
+<!ATTLIST persona 
+	nombre CDATA #REQUIRED
+	apellidos CDATA #REQUIRED
+	comentarios CDATA #REQUIRED>
+<!ATTLIST fotos enlaceFoto CDATA #REQUIRED>
+<!ATTLIST videos enlaceVideo CDATA #REQUIRED>
+<!ATTLIST fechaNac fecha CDATA #REQUIRED>
+<!ATTLIST lugarNac lugar CDATA #REQUIRED>
+<!ATTLIST coordNac coord CDATA #REQUIRED>
+<!ATTLIST lugarResi lugar CDATA #REQUIRED>
+<!ATTLIST coordResi coord CDATA #REQUIRED>
