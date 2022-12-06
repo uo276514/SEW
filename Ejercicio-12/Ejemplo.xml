@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona nombre="Jorge" apellidos="López Peláez" comentarios="Estudiante de ingeniería informática" xmlns="http://www.uniovi.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.uniovi.es amigos.xsd">	
+	<fotos enlaceFoto="multimedia/Jorge.PNG"/>	
+	<fechaNac fecha="2001-08-16"/>	
+	<lugarNac lugar="Segovia"/>	
+	<coordNac coord="40.94808, -4.11839, 1005"/>	
+	<lugarResi lugar="Oviedo"/>
+	<coordResi coord="43.3603, -5.84476, 232"/> 
+	<persona nombre="Martín" apellidos="Fernández González" comentarios="Se parece a Ferrán Torres">	
+		<fotos enlaceFoto="multimedia/Martin.PNG"/>	<fechaNac fecha="2001-06-08"/>	
+		<lugarNac lugar="León"/>	<coordNac coord="42.6000, -5.5703, 837"/>	
+		<lugarResi lugar="Oviedo La Florida"/>	
+		<coordResi coord="43.3680, -5.8730, 230"/>
+	</persona>
+</persona>
