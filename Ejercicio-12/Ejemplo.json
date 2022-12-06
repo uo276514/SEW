@@ -1,0 +1,23 @@
+{
+    "coord": {
+      "lon": -5.8448,
+      "lat": 43.3603
+    },
+    "weather": [
+      {
+        "id": 500,
+        "main": "Rain",
+        "description": "lluvia ligera",
+        "icon": "10n"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 9.9,
+      "feels_like": 9.71,
+      "temp_min": 9.19,
+      "temp_max": 13.62,
+      "pressure": 1016,
+      "humidity": 99
+    }
+  }
