@@ -1,0 +1,7 @@
+Esto es un documento de texto de prueba.
+Sirve para usarlo como ejemplo en el ejercicio 12.
+En el ejercicio 12 se usa el API FILE de HTML5 para cargar distintos tipos de archivos y poder obtener información sobre ellos.
+La información que yo obtengo son:
+	El nº de archivos introducidos para procesar
+	El tamaño total de todos los archivos juntos
+	El nombre de cada archivo seguido de el tamaño individual del archivo y el tipo de archivo que es

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jorge López Peláez">
+	<meta name="description" content="Practica-3_Ejercicio-13-1_MapaKML">
+	<meta name="keywords" content="JavaScript, Ubicaciones, Mapa, Dinámico, KML, Lector, Archivo">
+	<!--Definición de la ventana gráfica-->
+	<meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+	
+	<title>Ejercicio13_Tarea1</title>
+	
+	<link rel="stylesheet" type="text/css" href="MapaKML.css">
+	
+	<script src="MapaKML.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBljS6b2LPAKKzLjYwVyzgVx8JuueSwqcA"></script>
+</head>
+
+<body onload="mapa.init()">
+
+	<h1>MOSTRAR COORDENADAS DE KML EN MAPA DINÁMICO</h1>
+	
+	<label for="archivo">Introduce archivo KML: </label>	    
+	<input type="file" id="archivo" onchange="lector.leerArchivo(this.files);">
+	
+	<input type="button" onclick = "lector.cogerInfoKML()" value="Mostrar información del KML">
+
+	<main>
+		<p>MAPA</p>
+	</main>
+
+	<p></p>
+	
+</body>
+</html>

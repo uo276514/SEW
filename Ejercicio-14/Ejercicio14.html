@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Jorge López Peláez">
+	<meta name="description" content="Practica-3_Ejercicio-14_MiAplicacion">
+	<meta name="keywords" content="JavaScript, Ubicaciones, Mapa, Dinámico, Geolocalizacion, Geolocation, FullScreen, Lector, File, Champions">
+	<!--Definición de la ventana gráfica-->
+	<meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+
+	<title>Ejercicio14</title>
+	
+	<link rel="stylesheet" type="text/css" href="Ejercicio14.css">
+	
+	<script src="Ejercicio14.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBljS6b2LPAKKzLjYwVyzgVx8JuueSwqcA"></script>
+</head>
+
+<body onload="lectorYmapa.init()">
+
+	<h1>¿A QUÉ DISTANCIA ESTÁS DEL PRÓXIMO PARTIDO?</h1>
+
+	<p>Esta aplicación permite que el usuario introduzca un documento de texto con información sobre futuros partidos de fútbol de la 
+		competición Champions League.</p>
+	<p>El formato del archivo es: equipoLocal - equipoVisitante,estadio,latitudDelEstadio,longitudDelEstadio.</p>
+	<p>Después de haber introducido el fichero, podrás obtener las distancias en diferencia de latitud y longitud que separan al cliente de
+		cada estadio, esto se realiza mediante el consentimiento de la geolocalización. Además, en el mapa se mostrarán marcadores con la 
+		posición del usuario y de los estadios donde se juegan los partidos.</p>
+	<p>El mapa se puede poner en pantalla completa usando el botón correspondiente para ello.</p>
+
+	<label for="archivoTxt">Introduce el documento de texto con los partidos de Champions: </label>	    
+	<input type="file" id="archivoTxt" onchange="lectorYmapa.leerArchivo(this.files);">
+
+	<input type="button" value="COMPARAR UBICACIÓN CON COORDENADAS" onclick="lectorYmapa.cogerInfo()" >
+	
+	<p></p>
+	
+	<input type="button" value="VER MAPA EN PANTALLA COMPLETA" onclick="redim.pantallaCompleta()" >
+	
+	<main>
+		<p title="MAPA"></p>
+	</main>
+
+	<p title="AREA"></p>
+
+</body>
+</html>
