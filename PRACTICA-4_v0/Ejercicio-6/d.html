@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jorge López Peláez">
+	<meta name="description" content="Practica-4_Ejercicio-6_BaseDatos">
+	<meta name="keywords" content="PHP, bases, datos, BD">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>BaseDatos</title>
+                
+    <link rel="stylesheet" type="text/css" href="Ejercicio6.css">
+</head>
+<body>
+No se ha encontrado ningún dni que coincida  
+           
+            <h1>Base de datos</h1> 
+
+            <h2>Creación de BD y tablas:</h2>
+
+            <form action="#" method="post" name="creacion">
+                <p>Crear la BD con nombre 'BaseDatos'</p>              
+                <input type="submit" class="button" name="crearBD" value="Crear Base de Datos">
+
+                <label for="crearTabla">Nombre de la tabla (PruebasUsabilidad): <input type="text" id="crearTabla" name="txtCrearTabla"></label>
+                <input type="submit" class="button" name="crearTabla" value="Crear una tabla">
+            </form>
+
+            <h2>Inserción de datos en la tabla:</h2>
+
+            <form action="#" method="post" name="insercion">
+                <label for="inDni">DNI: <input type="text" id="inDni" name="inDni"></label> 
+                <label for="inNombre">Nombre: <input type="text" id="inNombre" name="inNombre"></label> 
+                <label for="inApellidos">Apellidos: <input type="text" id="inApellidos" name="inApellidos"></label> 
+                <label for="inEmail">Email: <input type="text" id="inEmail" name="inEmail"></label> 
+                <label for="inTelefono">Teléfono: <input type="text" id="inTelefono" name="inTelefono"></label> 
+                <label for="inEdad">Edad: <input type="number" id="inEdad" name="inEdad"></label> 
+                <label for="inSexo">Sexo (M/F): <input type="text" id="inSexo" name="inSexo"></label> 
+                <label for="inPericia">Pericia informática (0-10): <input type="number" id="inPericia" name="inPericia"></label> 
+                <label for="inTiempo">Tiempo tardado (s): <input type="number" id="inTiempo" name="inTiempo"></label> 
+                <label for="inTareaOK">Resuelta (s/n): <input type="text" id="inTareaOK" name="inTareaOK"></label> 
+                <label for="inComent">Comentarios: <input type="text" id="inComent" name="inComentarios"></label> 
+                <label for="inPropuestas">Propuestas: <input type="text" id="inPropuestas" name="inPropuestas"></label> 
+                <label for="inValoracion">Valoración (0-10): <input type="number" id="inValoracion" name="inValoracion"></label> 
+                <input type="submit" class="button" name="insertarDatos" value="Insertar datos en la tabla">
+            </form>
+
+            <h2>Búsqueda de datos en la tabla:</h2>
+
+            <form action="#" method="post" name="busqueda">
+                <label for="bDni">DNI: <input type="text" id="bDni" name="bDni"></label> 
+                <input type="submit" class="button" name="buscarDatos" value="Buscar datos en la tabla por DNI">
+                <p></p>
+            </form>
+
+            <h2>Modificación de datos en la tabla:</h2>
+
+            <form action="#" method="post" name="modificacion">
+                <label for="modDni">DNI: <input type="text" id="modDni" name="modDni"></label>
+                <label for="modNombre">Nombre: <input type="text" id="modNombre" name="modNombre"></label> 
+                <label for="modApellidos">Apellidos: <input type="text" id="modApellidos" name="modApellidos"></label> 
+                <label for="modEmail">Email: <input type="text" id="modEmail" name="modEmail"></label> 
+                <label for="modTelefono">Teléfono: <input type="text" id="modTelefono" name="modTelefono"></label> 
+                <label for="modEdad">Edad: <input type="number" id="modEdad" name="modEdad"></label> 
+                <label for="modSexo">Sexo (M/F): <input type="text" id="modSexo" name="modSexo"></label> 
+                <label for="modPericia">Pericia informática (0-10): <input type="number" id="modPericia" name="modPericia"></label> 
+                <label for="modTiempo">Tiempo tardado (s): <input type="number" id="modTiempo" name="modTiempo"></label> 
+                <label for="modTareaOK">Resuelta (s/n): <input type="text" id="modTareaOK" name="modTareaOK"></label> 
+                <label for="modComent">Comentarios: <input type="text" id="modComent" name="modComentarios"></label> 
+                <label for="modPropuestas">Propuestas: <input type="text" id="modPropuestas" name="modPropuestas"></label> 
+                <label for="modValoracion">Valoración (0-10): <input type="number" id="modValoracion" name="modValoracion"></label> 
+                <input type="submit" class="button" name="modificarDatos" value="Modificar datos de la tabla por DNI">
+            </form>
+
+            <h2>Borrado de datos de la tabla:</h2>
+
+            <form action="#" method="post" name="borrado">
+                <label for="dDni">DNI: <input type="text" id="dDni" name="dDni"></label>
+                <input type="submit" class="button" name="eliminarDatos" value="Eliminar datos de la tabla por DNI">
+            </form>
+
+            <form action="#" method="post" name="generar">
+                <input type="submit" class="button" name="informe" value="Generar informe">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </form>
+
+            <form action="#" method="post" enctype="multipart/form-data" name="importar">
+                <label for="archivo">Selecciona el archivo CSV: <input type="file" id="archivo" name="archivo"></label>
+                <input type="submit" class="button" name="cargarCSV" value="Importar datos de CSV a la tabla">
+            </form>
+
+            <form action="#" method="post" name="exportar">
+                <input type="submit" class="button" name="exportarCSV" value="Exportar datos de la tabla a CSV">
+            </form>
+    
+</body></html>
